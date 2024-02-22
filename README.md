@@ -6,12 +6,21 @@
 
 ### ¿Qué veremos en esta sección?
 
-En esta sección veremos:
+1. Primera parte:
 
-- Conceptos generales de RxJs y las extensiones reactivas
-- ¿Qué es ReactiveX?
-- ¿Cómo funciona?
-- ¿Qué es el patrón observable?
+   - Conceptos generales de RxJs y las extensiones reactivas
+   - ¿Qué es ReactiveX?
+   - ¿Cómo funciona?
+   - ¿Qué es el patrón observable?
+
+2. Segunda parte:
+
+   - Observers
+   - Subscriber
+   - Unsubscribe
+   - Subjects
+   - Hot y Cold Observables
+   - Observables en cadena
 
 ### \* PASOS A REALIZAR:
 
