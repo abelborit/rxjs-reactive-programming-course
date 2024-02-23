@@ -48,6 +48,7 @@ const subscriptionSubject2 = subject$.subscribe({
   error: (error) => console.warn("error 2:", error),
   complete: () => console.info("complete subscriptionSubject2"),
 });
+console.log({ subscriptionSubject1, subscriptionSubject2 });
 
 setTimeout(() => {
   /* cuando la data es producida por el observable en sí mismo es considerado un "Cold Observable" pero cuando la data es producida FUERA del observable es considerado un "Hot Observable". Entonces el subject nos permite transformar un Cold Observable en un Hot Observable */

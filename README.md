@@ -6,14 +6,14 @@
 
 ### ¿Qué veremos en esta sección?
 
-1. Primera parte:
+1. Primera parte: **Conceptos generales**
 
    - Conceptos generales de RxJs y las extensiones reactivas
    - ¿Qué es ReactiveX?
    - ¿Cómo funciona?
    - ¿Qué es el patrón observable?
 
-2. Segunda parte:
+2. Segunda parte: **Observables**
 
    - Observers
    - Subscriber
@@ -21,6 +21,14 @@
    - Subjects
    - Hot y Cold Observables
    - Observables en cadena
+
+3. Tercera parte: **Funciones para crear Observables**
+
+   - of
+   - fromEvent
+   - interval
+   - timer
+   - asyncScheduler
 
 ### \* PASOS A REALIZAR:
 

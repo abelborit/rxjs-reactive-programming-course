@@ -1,5 +1,11 @@
 // export * from './01-observable';
 // export * from './02-unsubscribe-add';
 // export * from './03-subject';
-export * from "./04-observable-subject-behaviorSubject";
+// export * from './04-observable-subject-behaviorSubject';
+// export * from './05-of';
+// export * from './06-fromEvent';
+// export * from "./07-range";
+// export * from "./08-interval-timer";
+// export * from "./09-asyncScheduler";
+// export * from "./10-from-avanzado";
 export * from "./index";
