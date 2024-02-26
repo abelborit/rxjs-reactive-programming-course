@@ -45,6 +45,19 @@
      - scan
    - Encadenamiento de operadores
 
+5. Quinta parte: **Operadores RxJS No tan comunes**
+
+   Estos son operadores no tan comunes a la hora de trabajar pero bastante últiles, aunque puede ser relativo, ya que en algunos proyectos pueden ser muy utilizados al trabajar.
+
+   - take
+   - first
+   - takeWhile
+   - takeUntil
+   - skip
+   - distinct
+   - distinctUntilChanged
+   - distinctUntilKeyChanged
+
 ### \* PASOS A REALIZAR:
 
 1. ejemplo

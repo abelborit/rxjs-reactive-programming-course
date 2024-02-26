@@ -4,4 +4,11 @@
 // export * from "./04-exercises-map";
 // export * from "./05-reduce";
 // export * from "./06-scan";
+// export * from "./07-take";
+// export * from "./08-first";
+// export * from "./09-takeWhile";
+// export * from "./10-takeUntil-skip";
+// export * from "./11-distinct";
+// export * from "./12-distinctUntilChanged";
+// export * from "./13-distinctUntilKeyChanged";
 export * from "./index";
