@@ -30,6 +30,21 @@
    - timer
    - asyncScheduler
 
+4. Cuarta parte: **Operadores RxJS Básicos**
+
+   La fuerza de los operadores nos permiten jugar con la data y el flujo de información de una manera sorprendente.
+
+   - Explicación de los operadores
+   - Algunos operadores RxJS:
+     - map
+     - pluck
+     - mapTo
+     - filter
+     - tap
+     - reduce
+     - scan
+   - Encadenamiento de operadores
+
 ### \* PASOS A REALIZAR:
 
 1. ejemplo
