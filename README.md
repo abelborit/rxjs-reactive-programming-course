@@ -58,6 +58,16 @@
    - distinctUntilChanged
    - distinctUntilKeyChanged
 
+6. Sexta parte: **Operadores RxJS que trabajan con el tiempo**
+
+   Estos son operadores del tiempo los cuales se enfocan en trabajar de alguna manera con intervalos de tiempo.
+
+   - debounceTime
+   - throttleTime
+   - sampleTime
+   - sample
+   - auditTime
+
 ### \* PASOS A REALIZAR:
 
 1. ejemplo
