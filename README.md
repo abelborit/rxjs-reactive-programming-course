@@ -68,6 +68,18 @@
    - sample
    - auditTime
 
+7. Séptima parte: **Ajax - Peticiones Ajax usando Operadores RxJS/ajax**
+
+   Usaremos operadores RxJS enfocados en peticiones Ajax para que nos regresen observables. No sólo trabajaremos con funciones propias para realizar llamadas HTTP, sino que también configuraremos headers y trabajaremos con las respuestas.
+
+   - Conceptos básicos de una petición ajax
+   - Manejo de errores
+   - Fetch API
+   - getJson
+   - Ajax
+   - Diferencia entre getJson y Ajax
+   - PUT, POST, DELETE, GET
+
 ### \* PASOS A REALIZAR:
 
 1. ejemplo
