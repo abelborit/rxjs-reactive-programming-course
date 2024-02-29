@@ -80,6 +80,16 @@
    - Diferencia entre getJson y Ajax
    - PUT, POST, DELETE, GET
 
+8. Octava parte: **Operadores RxJS que transforman la información**
+
+   Aquí se podrá trabajar con el concepto del aplanamiento el cual es que, si tenemos algo que nos regrese un observable entonces una función de aplanamiento se suscribirá internamente en ese mismo operador y nos regresará el producto/respuesta/salida de la suscripción de ese observable en esa misma cadena o línea de tiempo.
+
+   - mergeAll
+   - mergeMap
+   - switchMap
+   - concatMap
+   - exhaustMap
+
 ### \* PASOS A REALIZAR:
 
 1. ejemplo
