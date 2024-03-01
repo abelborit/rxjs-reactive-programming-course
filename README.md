@@ -90,6 +90,17 @@
    - concatMap
    - exhaustMap
 
+9. Novena parte: **Operadores RxJS y métodos de combinación de observables**
+
+   Veremos operadores y métodos para combinar las emisiones de los observables o bien varios observables entre sí.
+
+   - startWith
+   - endWith
+   - concat
+   - merge
+   - combineLatest
+   - forkJoin
+
 ### \* PASOS A REALIZAR:
 
 1. ejemplo
