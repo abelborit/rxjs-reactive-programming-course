@@ -101,11 +101,9 @@
    - combineLatest
    - forkJoin
 
-### \* PASOS A REALIZAR:
+10. Décima parte: **Ejercicios de reforzamiento usando RxJS**
 
-1. ejemplo
-2. ejemplo
-3. ejemplo
+    Veremos algunos ejercicios de reforzamiento usando RxJS.
 
 ### \* RECURSOS A USAR:
 
@@ -114,7 +112,6 @@
 - ReactiveX Documentations:
   - https://reactivex.io/documentation/observable.html
   - https://rxjs-dev.firebaseapp.com/api
-- ejemplo
 
 ### \* NOTAS:
 

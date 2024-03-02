@@ -1,0 +1,43 @@
+/**
+ * Ejercicio:
+ ** El objetivo de es realizar la misma impresión, pero usando observables
+ ** Nota: NO hay que usar el ciclo "FOR OF", usar un observable y llamar la función capitalizar
+ */
+
+import { from, map } from "rxjs";
+
+/**
+ Salida esperada:
+ * Batman
+ * Joker
+ * Doble Cara
+ * Pingüino
+ * Hiedra Venenosa
+ */
+
+(() => {
+  const nombres = [
+    "batman",
+    "joker",
+    "doble cara",
+    "pingüino",
+    "hiedra venenosa",
+  ];
+
+  const capitalizar = (nombre: string) =>
+    nombre.replace(
+      /\w\S*/g,
+      (txt) => txt.charAt(0).toUpperCase() + txt.substring(1).toLowerCase()
+    );
+
+  /* FORMA NORMAL */
+  // Cambiar este FOR OF, por un observable y capitalizar las emisiones
+  // for (let nombre of nombres) {
+  //   console.log(capitalizar(nombre));
+  // }
+
+  /* USANDO OBSERVABLES */
+  /* se puede usar from(nombres) o el of(...nombres) */
+  const observableNames$ = from(nombres).pipe(map((name) => capitalizar(name)));
+  observableNames$.subscribe((response) => console.log("response:", response));
+})();
